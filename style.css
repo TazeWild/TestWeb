@@ -75,6 +75,7 @@ ul {
     margin: 0;
 }
 .tab img {
+    vertical-align: top;
     width: 500px;
     padding: 5px;
     border: 3px solid #00000000;
