@@ -13,7 +13,7 @@ header {
 header h1 {
     padding: 10px;
     margin: 10px;
-    background-color: #ffffff55;
+    background-color: #e2e2e255;
 }
 .name {
     text-shadow: 6px 6px 16px #11111199;
@@ -43,18 +43,25 @@ ul {
     margin: 0;
 }
 .intro {
-    margin: 30px 100px 20px 30px;
-}
+     margin: 30px 100px 20px 30px;
+ }
 .intro > * {
     padding: 0 0 10px;
     margin: 0;
 }
-.post {
+.post, .tab {
     padding: 20px 30px;
     border: 3px solid #e2e2e2;
     border-radius: 25px;
     margin: 20px 100px 10px 10px;
     background-color: #e2e2e211;
+}
+.post:hover, .tab:hover {
+    padding: 20px 30px;
+    border: 3px solid;
+    border-radius: 25px;
+    border-image: linear-gradient(45deg, #ff0000, #80ff00, #0040ff) 15% 25;
+    box-shadow: 0 0 32px #80ff00;
 }
 .post > * {
     padding: 0 0 10px;
@@ -62,4 +69,18 @@ ul {
 }
 .post > *:last-child {
     padding-bottom: 0;
+}
+.tab > * {
+    padding: 0 0 10px;
+    margin: 0;
+}
+.tab img {
+    width: 500px;
+    padding: 5px;
+    border: 3px solid #00000000;
+}
+.tab img:hover {
+    background: #e2e2e255;
+    border: 3px solid #e2e2e200;
+    border-radius: 10px;
 }
