@@ -1,0 +1,65 @@
+html {
+    background: #111111;
+    color: #e2e2e2;
+    font-family: 'Roboto Slab',serif; font-size: 18px;
+}
+header {
+    background-image: url("https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80");
+    background-size: cover;
+    background-position: center;
+    color: #111111f4;
+    margin: 0 100px 0 -10px;
+}
+header h1 {
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffffff55;
+}
+.name {
+    text-shadow: 6px 6px 16px #11111199;
+}
+.name:hover {
+    color: #e2e2e2;
+    text-shadow: 6px 6px 16px #e2e2e299;
+}
+ul li {
+    display: inline-flex;
+    padding: 4px;
+    margin: 0 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #e2e2e255;
+}
+ul li:hover {
+    background-color: #e2e2e299;
+}
+a {
+    color: #111111f4;
+    font-weight: bold;
+    text-decoration: none;
+}
+ul {
+    padding: 0 15px;
+    margin: 0;
+}
+.intro {
+    margin: 30px 100px 20px 30px;
+}
+.intro > * {
+    padding: 0 0 10px;
+    margin: 0;
+}
+.post {
+    padding: 20px 30px;
+    border: 3px solid #e2e2e2;
+    border-radius: 25px;
+    margin: 20px 100px 10px 10px;
+    background-color: #e2e2e211;
+}
+.post > * {
+    padding: 0 0 10px;
+    margin: 0;
+}
+.post > *:last-child {
+    padding-bottom: 0;
+}
